@@ -39,6 +39,8 @@ Vue.use({
     Vue.prototype.$api_url = apiUrl;
     Vue.prototype.$compounds_url = 'compounds';
     Vue.prototype.$runs_url = 'runs';
+    Vue.prototype.$teams_url = 'teams';
+    Vue.prototype.$users_url = 'users';
     Vue.prototype.$login_url = 'idtokensignin';
     Vue.prototype.$elastic_index_url = 'run_start/_search';
   },

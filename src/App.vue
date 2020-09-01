@@ -12,7 +12,7 @@
 
             <b-nav-item v-bind:to="'/'">Home</b-nav-item>
             <b-nav-item v-bind:to="'/runs'">Runs</b-nav-item>
-
+            <b-nav-item v-bind:to="'/teams'">Teams</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
         <b-nav-text class="mx-3" id="user_name">
@@ -20,9 +20,9 @@
         </b-nav-text>
         <span id="logout" v-if="isLoggedIn" >   | <b-button variant="light" @click="logout" class="mx-3">Logout</b-button></span>
     </b-navbar>
-    <b-navbar>
+    <!-- <b-navbar>
       <SearchBar/>
-    </b-navbar>
+    </b-navbar> -->
     <router-view/>
 
   </div>
